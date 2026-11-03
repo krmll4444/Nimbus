@@ -69,7 +69,5 @@ Index/
 !.vscode/extensions.json
 !.vscode/settings.json
 
-# Cursor local (keep shared project rules)
-.cursor/*
-!.cursor/rules/
-!.cursor/rules/**
+# Cursor (local only — not for public git)
+.cursor/
