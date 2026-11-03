@@ -1,0 +1,75 @@
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+Icon?
+._*
+.DocumentRevisions-V100
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# Xcode — user state
+xcuserdata/
+*.xcuserstate
+*.xccheckout
+*.moved-aside
+*.hmap
+
+# Xcode — build
+build/
+DerivedData/
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# Swift Package Manager
+.build/
+.swiftpm/configuration/registries.json
+.swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
+Packages/**/.build/
+Packages/**/.swiftpm/
+
+# CocoaPods / Carthage (if added later)
+Pods/
+Carthage/Build/
+
+# Fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Playgrounds
+timeline.xctimeline
+playground.xcworkspace
+
+# Env / secrets
+.env
+.env.*
+!.env.example
+*.pem
+Secrets.xcconfig
+*/Secrets.xcconfig
+
+# Archives & packaging
+*.xcarchive
+dist/
+*.dmg
+
+# Index / IDE noise
+Index/
+*.swp
+*~
+.idea/
+.vscode/*
+!.vscode/extensions.json
+!.vscode/settings.json
+
+# Cursor local (keep shared project rules)
+.cursor/*
+!.cursor/rules/
+!.cursor/rules/**
